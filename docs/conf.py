@@ -17,7 +17,7 @@ import os
 import time
 sys.path.append(os.path.abspath(".."))
 
-import warpserver
+# import warpserver
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'warpserver'
-copyright = u'2014 Albian Warp' % time.strftime('%Y')
+copyright = u'2015, Albian Warp'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -216,7 +216,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'warpserver.tex', u'Warpserver Documentation',
+  ('index', 'warpserver.tex', u'warpserver Documentation',
    u'Albian Warp', 'manual'),
 ]
 
@@ -260,8 +260,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'warpserver', u'warpserver Documentation',
-   u'Albian Warp', 'warpserver'),
+  ('index', 'warpserver', u'Warpserver Documentation',
+   u'Albian Warp', 'warpserver', 'warpserver is a Creatures Docking Station server.',
+  ),
 ]
 
 # Documents to append as an appendix to all manuals.

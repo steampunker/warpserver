@@ -1,9 +1,11 @@
-Welcome to the Albian Warpserver documentation!
+Welcome to Albian Warpserver documentation!
 ===================================
 
-:PyPI: https://pypi.python.org/pypi/warpserver
 :Source: https://github.com/albianwarp/warpserver
-
+:Build status:
+    .. image:: https://coveralls.io/repos/albianwarp/warpserver/badge.png
+        :alt: Coveralls
+        :target: https://coveralls.io/r/albianwarp/warpserver
 
 Documentation Index
 ===================
