@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from version import __appname__, __version__  # NOQA
 from flask import Flask
 from database import db
 from auth import auth
