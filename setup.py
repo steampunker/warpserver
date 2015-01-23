@@ -7,7 +7,7 @@ PKG = 'warpserver'
 VERSIONFILE = os.path.join(PKG, "version.py")
 long_description = """Warpserver is a replacement for the Creatures Docking Station warp server.
 """
-install_requires = ['pymongo', 'scoundrels', 'beautifulsoup4']
+install_requires = ['flask', 'flask-sqlalchemy', 'passlib']
 
 verstr = "unknown"
 try:
