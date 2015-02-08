@@ -1,6 +1,0 @@
--r requirements.txt
-# For testing
-nose
-
-coverage
-flake8
